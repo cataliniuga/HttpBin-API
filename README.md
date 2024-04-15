@@ -2,6 +2,7 @@
 
 Test you HTTP calls with this API. It captures request and replays the details back to you.
 
+
 ## Bulding and running
 
 You need to have a PostgreSQL database running. Modify the connection string inside appsettings.json to match your database.
@@ -16,6 +17,8 @@ dotnet ef database update
 # Run the application
 dotnet run
 ```
+
+The frontend repository can be found [here](https://github.com/CatalinIuga/HttpBin-Client).
 
 ## Design
 
